@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Al-Asl Institute</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <img src="{{ url_for('static', filename='logo2.png') }}" alt="Logo">
+    </div>
+    <div class="section banner">
+      <p>Al-Asl is an online learning platform for women and children to improve and perfect their recitation of the Quran.</p><br>
+      <button onclick="location.href='#waitlist'">Waitlist Now</button>
+    </div>
+    <div class="section course-list">
+      <h1>Our Courses</h1>
+      <div class="course-container">
+        <div class='course-card'>
+          <h3>Quran Recitation</h3>
+          <p>Practice your recitation any time with our 24/7 teaching staff.</p>
+          <button class="disabled-button">Coming Soon</button>
+        </div>
+        <div class='course-card'>
+          <h3>Akhlaq Hamlatul Quran</h3>
+          <p>Learn about Akhlaq Hamlatul Quran</p>
+          <button class="disabled-button">Coming Soon</button>
+        </div>
+        <div class='course-card'>
+          <h3>Makharij Correction</h3>
+          <p>Perfect your pronounciation of Arabic letters with Ustadh Naila firdaus.</p>
+          <button class="disabled-button">Coming Soon</button>
+        </div>
+      </div>
+    </div>
+    <div class="section about" id="about">
+      <div class="about-card">
+        <h3>About Us</h3>
+        <p></p>
+      </div>
+      <div class="about-card">
+        <h3>Meet the Founder</h3>
+        <p></p>
+      </div>
+    </div>
+    <div class="section contact" id='waitlist'>
+      <div>
+        <h2>Join the Waitlist!</h2>
+        <p>We'll notify you when registration for new courses open.</p>
+      </div>      
+      <form action="/waitlist" method="POST">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+        <div class="alert alert-{{ 'success' if category == 'success' else 'danger' }}" role="alert">
+            {{ message }}
+        </div>
+        {% endfor %}
+        {% endif %}
+      {% endwith %}
+        <div class="form-item">
+          <label>First Name</label>
+          <input type='text' name='first_name'>
+        </div>
+        <div class="form-item">
+          <label>Last Name</label>
+          <input type='text' name='last_name'>
+        </div>
+        <div class="form-item">
+          <label>Email</label>
+          <input type='text' name='email'>
+        </div>
+        <button type="submit">Join Waitlist</button>
+      </form>
+    </div>
+  </div>
+  <footer>
+    © 2025 Al-Asl. All rights reserved.
+  </footer>
+</body>
+</html>
