@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ locale }}" class="lang-{{ locale }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Al-Asl Institute</title>
+  <title>{{ _('Al-Asl Institute') }}</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
@@ -14,46 +14,52 @@
 <body>
   <div class="container">
     <div class="nav">
-      <img src="{{ url_for('static', filename='logo2.png') }}" alt="Logo">
+      <img src="{{ url_for('static', filename='logo2.png') }}" alt="{{ _('Logo') }}">
     </div>
     <div class="section banner">
-      <p>Al-Asl is an online learning platform for women and children to improve and perfect their recitation of the Quran.</p><br>
-      <button onclick="location.href='#waitlist'">Waitlist Now</button>
+      <p class='lang-ar'>أَلَمْ تَرَ كَيْفَ ضَرَبَ ٱللَّهُ مَثَلًۭا كَلِمَةًۭ طَيِّبَةًۭ كَشَجَرَةٍۢ طَيِّبَةٍ أَصْلُهَا ثَابِتٌۭ وَفَرْعُهَا فِى ٱلسَّمَآءِ ٢٤</p><br>
+      <i>"{{ _('Do you not see how Allah compares a good word to a good tree? Its root is firm and its branches reach the sky') }},"</i><br>
+      <button onclick="location.href='#waitlist'">{{ _('Waitlist Now') }}</button>
     </div>
     <div class="section course-list">
-      <h1>Our Courses</h1>
+      <h1>{{ _('Our Courses') }}</h1>
       <div class="course-container">
         <div class='course-card'>
-          <h3>Quran Recitation</h3>
-          <p>Practice your recitation any time with our 24/7 teaching staff.</p>
-          <button class="disabled-button">Coming Soon</button>
+          <h3>{{ _('Book Club') }}</h3>
+          <p>{{ _('Sisters Book Club, Bazm-e-Mutalia’, is a unique platform for Urdu-speaking sisters where they can nurture their love for knowledge and literature through books. This reading circle provides not only an opportunity for intellectual discussions but also a beautiful chance to delve into the depths of religion and literature.
+') }}</p>
+          <button class="disabled-button">{{ _('Coming Soon') }}</button>
         </div>
         <div class='course-card'>
-          <h3>Akhlaq Hamlatul Quran</h3>
-          <p>Learn about Akhlaq Hamlatul Quran</p>
-          <button class="disabled-button">Coming Soon</button>
+          <h3>{{ _('Akhlaq Hamlatul Quran') }}</h3>
+          <p>{{ _('This book reading session delves into the profound teachings of the book Akhlaq Hamlatul Quran, emphasizing the moral and spiritual qualities essential for those who engage with the Quran. Students will explore the etiquettes, responsibilities, and character traits that align with carrying, understanding, and living by the Quranic message. Ideal for those seeking to enhance their relationship with the Quran.
+') }}</p>
+          <button class="disabled-button">{{ _('Coming Soon') }}</button>
         </div>
         <div class='course-card'>
-          <h3>Makharij Correction</h3>
-          <p>Perfect your pronounciation of Arabic letters with Ustadh Naila firdaus.</p>
-          <button class="disabled-button">Coming Soon</button>
+          <h3>{{ _('Akhlaq Hamlatul Quran') }}</h3>
+          <p>{{ _('This book reading session delves into the profound teachings of the book Akhlaq Hamlatul Quran, emphasizing the moral and spiritual qualities essential for those who engage with the Quran. Students will explore the etiquettes, responsibilities, and character traits that align with carrying, understanding, and living by the Quranic message. Ideal for those seeking to enhance their relationship with the Quran.
+') }}</p>
+          <button class="disabled-button">{{ _('Coming Soon') }}</button>
         </div>
       </div>
     </div>
     <div class="section about" id="about">
       <div class="about-card">
-        <h3>About Us</h3>
-        <p></p>
+        <h3>{{ _('About Us') }}</h3>
+        <p>{{ _('At') }} <span class="lang-ar">ألأصل</span>, {{_('we believe that to truly understand Islam, one must begin with its foundations. While Arabic is the primary language of the Quran, Urdu holds a unique and rich position in the Islamic world. After Arabic, Urdu is the language in which the most books, commentaries, and resources on Islam and the Quran have been written. It serves as a bridge for countless individuals seeking to explore and immerse themselves in the teachings of Islam.')}}</p>
+        <p>{{_('Our mission is to go back to the roots and provide a platform for individuals to study and appreciate the beauty of the Quran, Hadith, and Islamic literature through Urdu. We cater to people from all walks of life, particularly those who wish to strengthen their understanding of Islam by first mastering the language of Urdu. From beginners to advanced learners, we offer courses that are tailored to different levels of proficiency.')}}</p>
       </div>
       <div class="about-card">
-        <h3>Meet the Founder</h3>
-        <p></p>
+        <h3>{{ _('Our Vision') }}</h3>
+        <p>{{_('Our vision is to create a world where the roots of faith and knowledge are accessible to everyone. By empowering individuals with the tools to study the Quran and Islamic texts in Urdu, we aspire to revive the love for learning and understanding Islam in its truest form.')}}
+        </p>
       </div>
     </div>
     <div class="section contact" id='waitlist'>
       <div>
-        <h2>Join the Waitlist!</h2>
-        <p>We'll notify you when registration for new courses open.</p>
+        <h2>{{ _('Join the Waitlist!') }}</h2>
+        <p>{{ _("We'll notify you when registration for new courses opens.") }}</p>
       </div>      
       <form action="/waitlist" method="POST">
         {% with messages = get_flashed_messages(with_categories=true) %}
@@ -66,23 +72,23 @@
         {% endif %}
       {% endwith %}
         <div class="form-item">
-          <label>First Name</label>
+          <label>{{ _('First Name') }}</label>
           <input type='text' name='first_name'>
         </div>
         <div class="form-item">
-          <label>Last Name</label>
+          <label>{{ _('Last Name') }}</label>
           <input type='text' name='last_name'>
         </div>
         <div class="form-item">
-          <label>Email</label>
+          <label>{{ _('Email') }}</label>
           <input type='text' name='email'>
         </div>
-        <button type="submit">Join Waitlist</button>
+        <button type="submit">{{ _('Join Waitlist') }}</button>
       </form>
     </div>
   </div>
   <footer>
-    © 2025 Al-Asl. All rights reserved.
+    © 2025 Al-Asl. {{ _('All rights reserved.') }}
   </footer>
 </body>
 </html>

@@ -12,14 +12,38 @@
     --disabled-color-d: oklch(75% 0.02 30); /* Slightly darker beige for contrast */
 }
 
+@font-face {
+  font-family: 'Quranic';
+  src: url('/static/fonts/Quranic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-    font-family: 'Poppins', Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: var(--background-color);
     color: #333;
-  }
+}
+
+.lang-ur body {
+  font-family: 'Noto Nastaliq Urdu', serif;
+  direction: rtl; /* Right-to-left layout */
+  text-align: right;
+}
+
+.lang-en body {
+  font-family: 'Poppins', Arial, sans-serif;
+  direction: ltr; /* Left-to-right layout */
+  text-align: left;
+}
+.lang-ar body {
+  font-family: 'Quranic', serif;
+  direction: rtl; /* Right-to-left layout */
+  text-align: right;
+}
+
   .container {
     display: flex;
     flex-direction: column;
@@ -32,14 +56,12 @@ body {
   .banner {
     text-align: center;
     background: linear-gradient(145deg, var(--background-color-c1) 0%, var(--background-color-c2) 100%);
-    background-image: url("/static/roots.png");
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: 50% 50%;
-    background-attachment: fixed;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .banner-translation {
+    
   }
   .banner p {
     font-size: 1.5rem;

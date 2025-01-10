@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request, redirect, flash
+from flask import Flask, render_template, request, redirect, flash, g
+from flask_babel import Babel, gettext as _, lazy_gettext as _l
 import os
 import resend
 import re
@@ -20,8 +21,27 @@ def add_waitlist(first_name: str, last_name: str, email: str):
 
     return resend.Contacts.create(params)
 
+def get_locale():
+    # Use the locale from user settings or the browser's accept-language header
+    if 'lang' in request.args:
+        return request.args['lang']
+    user = getattr(g, 'user', None)
+    if user is not None:
+        return user.locale
+    return request.accept_languages.best_match(['en', 'ur'])
+
+def get_timezone():
+    user = getattr(g, 'user', None)
+    if user is not None:
+        return user.timezone
+
 app = Flask(__name__)
 app.secret_key = os.environ["SECRET_KEY"]
+babel = Babel(app, locale_selector=get_locale, timezone_selector=get_timezone)
+
+@app.context_processor
+def inject_locale():
+    return {'locale': get_locale()}
 
 def validate_email(email):
     # Simple regex for email validation
@@ -40,18 +60,15 @@ def waitlist():
 
     # Validate email
     if not validate_email(email):
-        #print("Invalid email address. Please try again.")
-        flash("Invalid email address. Please try again.", "danger")
+        flash(_("Invalid email address. Please try again."), "danger")
         return redirect('/')
 
     try:
         # Add to waitlist
         add_waitlist(first_name, last_name, email)
-        flash("Successfully added to the waitlist!", "success")
-        #print("Successfully added to the waitlist!")
+        flash(_("Successfully added to the waitlist!"), "success")
     except Exception as e:
-        flash(f"An error occurred: {str(e)}", "danger")
-        print(f"An error occurred: {str(e)}")
+        flash(_("An error occurred: {error}").format(error=str(e)), "danger")
 
     return redirect('/')
 
