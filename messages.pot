@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-10 18:44-0500\n"
+"POT-Creation-Date: 2025-01-10 19:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,29 +33,41 @@ msgstr ""
 msgid "Al-Asl Institute"
 msgstr ""
 
-#: templates/index.html:17
+#: templates/index.html:16
 msgid "Logo"
 msgstr ""
 
-#: templates/index.html:21
+#: templates/index.html:17
+msgid "The Urdu Chapter of Azharul Jannah"
+msgstr ""
+
+#: templates/index.html:23
+msgid "Switch to Urdu"
+msgstr ""
+
+#: templates/index.html:25
+msgid "Switch to English"
+msgstr ""
+
+#: templates/index.html:31
 msgid ""
 "Do you not see how Allah compares a good word to a good tree? Its root is"
 " firm and its branches reach the sky"
 msgstr ""
 
-#: templates/index.html:22
+#: templates/index.html:32
 msgid "Waitlist Now"
 msgstr ""
 
-#: templates/index.html:25
+#: templates/index.html:35
 msgid "Our Courses"
 msgstr ""
 
-#: templates/index.html:28
+#: templates/index.html:38
 msgid "Book Club"
 msgstr ""
 
-#: templates/index.html:29
+#: templates/index.html:39
 msgid ""
 "Sisters Book Club, Bazm-e-Mutalia’, is a unique platform for Urdu-"
 "speaking sisters where they can nurture their love for knowledge and "
@@ -64,15 +76,15 @@ msgid ""
 "delve into the depths of religion and literature.\n"
 msgstr ""
 
-#: templates/index.html:31 templates/index.html:37 templates/index.html:43
+#: templates/index.html:41 templates/index.html:47 templates/index.html:53
 msgid "Coming Soon"
 msgstr ""
 
-#: templates/index.html:34 templates/index.html:40
+#: templates/index.html:44 templates/index.html:50
 msgid "Akhlaq Hamlatul Quran"
 msgstr ""
 
-#: templates/index.html:35 templates/index.html:41
+#: templates/index.html:45 templates/index.html:51
 msgid ""
 "This book reading session delves into the profound teachings of the book "
 "Akhlaq Hamlatul Quran, emphasizing the moral and spiritual qualities "
@@ -82,15 +94,15 @@ msgid ""
 "those seeking to enhance their relationship with the Quran.\n"
 msgstr ""
 
-#: templates/index.html:49
+#: templates/index.html:59
 msgid "About Us"
 msgstr ""
 
-#: templates/index.html:50
+#: templates/index.html:60
 msgid "At"
 msgstr ""
 
-#: templates/index.html:50
+#: templates/index.html:60
 msgid ""
 "we believe that to truly understand Islam, one must begin with its "
 "foundations. While Arabic is the primary language of the Quran, Urdu "
@@ -101,7 +113,7 @@ msgid ""
 "teachings of Islam."
 msgstr ""
 
-#: templates/index.html:51
+#: templates/index.html:61
 msgid ""
 "Our mission is to go back to the roots and provide a platform for "
 "individuals to study and appreciate the beauty of the Quran, Hadith, and "
@@ -112,11 +124,11 @@ msgid ""
 "proficiency."
 msgstr ""
 
-#: templates/index.html:54
+#: templates/index.html:64
 msgid "Our Vision"
 msgstr ""
 
-#: templates/index.html:55
+#: templates/index.html:65
 msgid ""
 "Our vision is to create a world where the roots of faith and knowledge "
 "are accessible to everyone. By empowering individuals with the tools to "
@@ -124,31 +136,31 @@ msgid ""
 "for learning and understanding Islam in its truest form."
 msgstr ""
 
-#: templates/index.html:61
+#: templates/index.html:71
 msgid "Join the Waitlist!"
 msgstr ""
 
-#: templates/index.html:62
+#: templates/index.html:72
 msgid "We'll notify you when registration for new courses opens."
 msgstr ""
 
-#: templates/index.html:75
+#: templates/index.html:85
 msgid "First Name"
 msgstr ""
 
-#: templates/index.html:79
+#: templates/index.html:89
 msgid "Last Name"
 msgstr ""
 
-#: templates/index.html:83
+#: templates/index.html:93
 msgid "Email"
 msgstr ""
 
-#: templates/index.html:86
+#: templates/index.html:96
 msgid "Join Waitlist"
 msgstr ""
 
-#: templates/index.html:91
+#: templates/index.html:101
 msgid "All rights reserved."
 msgstr ""
 

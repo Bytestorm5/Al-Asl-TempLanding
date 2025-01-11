@@ -226,13 +226,17 @@ button:hover {
 
 .lang-switch-button {
   padding: 10px 15px;
-  background-color: #007bff;
+  background-color: var(--primary-color-l);
   color: white;
   text-decoration: none;
   border-radius: 5px;
   font-size: 14px;
+  transition: background-color 0.3s ease;
 }
 
 .lang-switch-button:hover {
-  background-color: #0056b3;
+  background-color: var(--primary-color-l);
+}
+.form-item label {
+  width: fit-content;
 }

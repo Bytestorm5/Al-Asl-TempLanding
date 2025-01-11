@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-10 18:44-0500\n"
-"PO-Revision-Date: 2025-01-10 18:45-0500\n"
+"POT-Creation-Date: 2025-01-10 19:34-0500\n"
+"PO-Revision-Date: 2025-01-10 19:34-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ur\n"
 "Language-Team: ur <LL@li.org>\n"
@@ -20,43 +20,55 @@ msgstr ""
 
 #: app.py:63
 msgid "Invalid email address. Please try again."
-msgstr ""
+msgstr "ای میل ایڈریس درست نہیں ہے۔ براہ کرم دوبارہ کوشش کریں۔"
 
 #: app.py:69
 msgid "Successfully added to the waitlist!"
-msgstr ""
+msgstr "ویٹ لسٹ میں کامیابی سے شامل کر لیا گیا!"
 
 #: app.py:71
 msgid "An error occurred: {error}"
-msgstr ""
+msgstr "ایک خرابی پیش آئی: {error}"
 
 #: templates/index.html:6
 msgid "Al-Asl Institute"
 msgstr ""
 
-#: templates/index.html:17
+#: templates/index.html:16
 msgid "Logo"
 msgstr "لوگو"
 
-#: templates/index.html:21
+#: templates/index.html:17
+msgid "The Urdu Chapter of Azharul Jannah"
+msgstr "ازہار الجنۃ کی اردو شاخ"
+
+#: templates/index.html:23
+msgid "Switch to Urdu"
+msgstr "اردو میں تبدیل کریں"
+
+#: templates/index.html:25
+msgid "Switch to English"
+msgstr "انگریزی میں تبدیل کریں"
+
+#: templates/index.html:31
 msgid ""
 "Do you not see how Allah compares a good word to a good tree? Its root is"
 " firm and its branches reach the sky"
 msgstr "کیا تم دیکھتے نہیں ہو کہ اللہ نے کلمہ طیّبہ کو کس چیز سے مثال دی ہے؟ اِس کی مثال ایسی ہے جیسے ایک اچھی ذات کا درخت جس کی جڑ زمین میں گہری جمی ہوئی ہے اور شاخیں آسمان تک پہنچی ہوئی ہیں"
 
-#: templates/index.html:22
+#: templates/index.html:32
 msgid "Waitlist Now"
-msgstr "اب ویٹ لسٹ میں شامل ہوں"
+msgstr "ابھی سبسکرائب کریں"
 
-#: templates/index.html:25
+#: templates/index.html:35
 msgid "Our Courses"
 msgstr "ہمارے کورسز"
 
-#: templates/index.html:28
+#: templates/index.html:38
 msgid "Book Club"
 msgstr "بزمِ مطالعہ"
 
-#: templates/index.html:29
+#: templates/index.html:39
 msgid ""
 "Sisters Book Club, Bazm-e-Mutalia’, is a unique platform for Urdu-"
 "speaking sisters where they can nurture their love for knowledge and "
@@ -65,15 +77,15 @@ msgid ""
 "delve into the depths of religion and literature.\n"
 msgstr "بزمِ مطالعہ اردو زبان بولنے والی بہنوں کے لیے ایک منفرد پلیٹ فارم ہے جہاں وہ کتابوں کے ذریعے علم و ادب سے محبت کو فروغ دے سکتی ہیں۔ یہ حلقہ مطالعہ نہ صرف علمی گفتگو بلکہ دین اور ادب کی گہرائیوں کو سمجھنے کے لیے ایک خوبصورت موقع فراہم کرتا ہے۔"
 
-#: templates/index.html:31 templates/index.html:37 templates/index.html:43
+#: templates/index.html:41 templates/index.html:47 templates/index.html:53
 msgid "Coming Soon"
 msgstr "جلد آ رہا ہے"
 
-#: templates/index.html:34 templates/index.html:40
+#: templates/index.html:44 templates/index.html:50
 msgid "Akhlaq Hamlatul Quran"
 msgstr "اخلاق حملۃ القرآن"
 
-#: templates/index.html:35 templates/index.html:41
+#: templates/index.html:45 templates/index.html:51
 msgid ""
 "This book reading session delves into the profound teachings of the book "
 "Akhlaq Hamlatul Quran, emphasizing the moral and spiritual qualities "
@@ -83,15 +95,15 @@ msgid ""
 "those seeking to enhance their relationship with the Quran.\n"
 msgstr "یہ کتاب خوانی کا سیشن کتاب "اخلاق حملۃ القرآن" کی گہری تعلیمات پر روشنی ڈالتا ہے، جو قرآن سے تعلق رکھنے والوں کے لیے ضروری اخلاقی اور روحانی خصوصیات کو اجاگر کرتا ہے۔ طلبہ اس کورس میں ان آداب، ذمہ داریوں اور کردار کی خصوصیات کو سمجھیں گے جو قرآن کے پیغام کو اپنانے، سمجھنے اور اس کے مطابق زندگی گزارنے کے لیے لازم ہیں۔ یہ کورس ان لوگوں کے لیے بہترین ہے جو قرآن کے ساتھ اپنے تعلق کو مضبوط بنانا چاہتے ہیں۔"
 
-#: templates/index.html:49
+#: templates/index.html:59
 msgid "About Us"
 msgstr "ألأصل کے بارے میں"
 
-#: templates/index.html:50
+#: templates/index.html:60
 msgid "At"
 msgstr ""
 
-#: templates/index.html:50
+#: templates/index.html:60
 msgid ""
 "we believe that to truly understand Islam, one must begin with its "
 "foundations. While Arabic is the primary language of the Quran, Urdu "
@@ -103,7 +115,7 @@ msgid ""
 msgstr "کا مطلب ہے "جڑیں"، اور ہمارا یہ ادارہ اس نام کو حقیقت میں بدلنے کے لیے وقف ہے۔ ہمارا یقین ہے کہ اسلام کو صحیح طور پر سمجھنے کے لیے ضروری ہے کہ اس کی بنیادوں کو مضبوط کیا جائے۔ عربی قرآن کی اصل زبان ہے، لیکن اردو نے اسلامی دنیا میں علم اور ادب کی ترویج میں ایک لازوال کردار ادا کیا ہے۔ عربی کے بعد سب سے زیادہ اسلامی کتب، تفاسیر، اور علوم اردو میں دستیاب ہیں، اور کئی خطوں میں لوگ اسلام کو سیکھنے سے پہلے اردو سیکھتے ہیں۔
 "
 
-#: templates/index.html:51
+#: templates/index.html:61
 msgid ""
 "Our mission is to go back to the roots and provide a platform for "
 "individuals to study and appreciate the beauty of the Quran, Hadith, and "
@@ -115,11 +127,11 @@ msgid ""
 msgstr "ہمارا مشن یہ ہے کہ اردو زبان کے ذریعے قرآن، حدیث، اور اسلامی علوم کی خوبصورتی اور گہرائی کو دنیا بھر کے لوگوں تک پہنچایا جائے۔ ہم ایسے کورسز پیش کرتے ہیں جو ابتدائی سطح کے طلباء سے لے کر ماہرین تک، ہر ایک کی ضروریات کو پورا کرتے ہیں۔ ہمارا مقصد صرف زبان سکھانا نہیں بلکہ قرآن اور اسلامی روایات کے ساتھ ایک گہرا تعلق پیدا کرنا ہے۔
 "
 
-#: templates/index.html:54
+#: templates/index.html:64
 msgid "Our Vision"
 msgstr "ہمارا وژن"
 
-#: templates/index.html:55
+#: templates/index.html:65
 msgid ""
 "Our vision is to create a world where the roots of faith and knowledge "
 "are accessible to everyone. By empowering individuals with the tools to "
@@ -128,32 +140,31 @@ msgid ""
 msgstr "ہمارا وژن ایک ایسی دنیا کی تخلیق ہے جہاں ہر شخص علم اور ایمان کی جڑوں تک رسائی حاصل کر سکے۔ ہم اردو کے ذریعے اسلامی متون اور قرآن کے مطالعے کو فروغ دے کر اسلام کی حقیقی تعلیمات کو سمجھنے اور سیکھنے کا جذبہ پیدا کرنا چاہتے ہیں۔
 "
 
-#: templates/index.html:61
+#: templates/index.html:71
 msgid "Join the Waitlist!"
 msgstr "ویٹ لسٹ میں شامل ہوں!"
 
-#: templates/index.html:62
+#: templates/index.html:72
 msgid "We'll notify you when registration for new courses opens."
 msgstr "ہم آپ کو مطلع کریں گے جب نئے کورسز کی رجسٹریشن کھلے گی۔"
 
-
-#: templates/index.html:75
+#: templates/index.html:85
 msgid "First Name"
 msgstr "پہلا نام"
 
-#: templates/index.html:79
+#: templates/index.html:89
 msgid "Last Name"
 msgstr "خری نام"
 
-#: templates/index.html:83
+#: templates/index.html:93
 msgid "Email"
 msgstr "ای میل"
 
-#: templates/index.html:86
+#: templates/index.html:96
 msgid "Join Waitlist"
-msgstr "ویٹ لسٹ میں شامل ہوں"
+msgstr "ابھی سبسکرائب کریں"
 
-#: templates/index.html:91
+#: templates/index.html:101
 msgid "All rights reserved."
-msgstr ""
+msgstr "All rights reserved."
 
