@@ -29,7 +29,10 @@
     <div class="section banner">
       <p class='lang-ar'>أَلَمْ تَرَ كَيْفَ ضَرَبَ ٱللَّهُ مَثَلًا كَلِمَةً طَيِّبَةً كَشَجَرَةٍ طَيِّبَةٍ أَصْلُهَا ثَابِتٌ وَفَرْعُهَا فِى ٱلسَّمَآءِ ٢٤</p><br>
       <small>"{{ _('Do you not see how Allah compares a good word to a good tree? Its root is firm and its branches reach the sky') }}," (14:24)</small><br>
-      <button onclick="location.href='#waitlist'" style="margin-top: 35px">{{ _('Subscribe Now') }}</button>
+      <div style="margin-top: 35px">
+        <button onclick="location.href='#waitlist'" >{{ _('Subscribe Now') }}</button>
+        <button onclick="location.href='https://whatsapp.com/channel/0029Vb32vMx6xCSGjYpIvq1B'">{{ _('Join our WhatsApp Channel') }}</button>
+      </div>
     </div>
     <div class="section course-list">
       <h1>{{ _('Our Courses') }}</h1>
@@ -47,9 +50,8 @@
           <button class="disabled-button">{{ _('Coming Soon') }}</button>
         </div>
         <div class='course-card'>
-          <h3>{{ _('Akhlaq Hamlatul Quran') }}</h3>
-          <p>{{ _('This book reading session delves into the profound teachings of the book Akhlaq Hamlatul Quran, emphasizing the moral and spiritual qualities essential for those who engage with the Quran. Students will explore the etiquettes, responsibilities, and character traits that align with carrying, understanding, and living by the Quranic message. Ideal for those seeking to enhance their relationship with the Quran.
-') }}</p>
+          <h3>{{ _('Quran and Tajweed ') }}</h3>
+          <p>{{ _('Al-Asl plans to offer a range of Tajweed and Quran courses in Urdu, adapted from Azharul Jannah in English, by the teachers trained under the guidance of Ustadha Zahara Ahamath. By learning in their native language, sisters can connect more profoundly with the Quranic message while mastering the techniques of proper recitation.') }}</p>
           <button class="disabled-button">{{ _('Coming Soon') }}</button>
         </div>
       </div>
@@ -57,19 +59,27 @@
     <div class="section about" id="about">
       <div class="about-card">
         <h3>{{ _('About Us') }}</h3>
-        <p>{{ _('At') }} <span class="lang-ar">ألأصل</span>, {{_('we believe that to truly understand Islam, one must begin with its foundations. While Arabic is the primary language of the Quran, Urdu holds a unique and rich position in the Islamic world. After Arabic, Urdu is the language in which the most books, commentaries, and resources on Islam and the Quran have been written. It serves as a bridge for countless individuals seeking to explore and immerse themselves in the teachings of Islam.')}}</p>
-        <p>{{_('Our mission is to go back to the roots and provide a platform for individuals to study and appreciate the beauty of the Quran, Hadith, and Islamic literature through Urdu. We cater to people from all walks of life, particularly those who wish to strengthen their understanding of Islam by first mastering the language of Urdu. From beginners to advanced learners, we offer courses that are tailored to different levels of proficiency.')}}</p>
+        <p>{{ _('Welcome to ألأصل, an institute dedicated to rediscovering the roots of our faith and culture through the language of Urdu. Inspired by the profound message in Surah Ibrahim (14:24), where a "good word" is likened to a tree with firm roots and flourishing branches, ألأصل aims to nurture a deep and lasting connection to the Quran and Islamic teachings.') }}</p>
+          <p>{{ _('At ألأصل, we believe that to truly understand Islam, one must begin with its foundations. While Arabic is the primary language of the Quran, Urdu holds a unique and rich position in the Islamic world. After Arabic, Urdu is the language in which the most books, commentaries, and resources on Islam and the Quran have been written. It serves as a bridge for countless individuals seeking to explore and immerse themselves in the teachings of Islam.') }}</p>
+          <p>{{ _('Our mission is to go back to the roots and provide a platform for individuals to study and appreciate the beauty of the Quran, Hadith, and Islamic literature through Urdu. We cater to people from all walks of life, particularly those who wish to strengthen their understanding of Islam through Urdu language. From beginners to advanced learners, we offer courses that are tailored to different levels of proficiency.') }}</p>
       </div>
       <div class="about-card">
         <h3>{{ _('Our Vision') }}</h3>
         <p>{{_('Our vision is to create a world where the roots of faith and knowledge are accessible to everyone. By empowering individuals with the tools to study the Quran and Islamic texts in Urdu, we aspire to revive the love for learning and understanding Islam in its truest form.')}}
         </p>
       </div>
+      <div class="about-card">
+        <h3>{{ _('About the Founder') }}</h3>
+        <p>{{_('Naila Firdaus, the founder of Al-Asl (ألأصل), is a passionate learner and educator committed to spreading Islamic knowledge to Urdu-speaking audiences. She holds a Bachelor’s degree in Computer Science and a Master’s degree in Project Management and has been an IT professional in New Jersey since 1999.')}}</p>
+        <p>{{_('Her journey into Islamic studies began after a heartfelt dua during Hajj, inspiring her to pursue advanced Quranic education. She has studied Ashara Sughra under multiple Shuyukh, holds Ijazat in various Mutoon, and is currently pursuing a PhD in Quranic Sciences.')}}</p>
+        <p>{{_('With a vision to make Islamic education accessible, Naila established Al-Asl, a platform dedicated to teaching Quranic recitation, Tajweed, and the etiquettes of Ahlul Quran. Her work reflects her dedication to creating a safe space for Urdu speakers to connect with the Quran and its teachings.')}}</p>
+      </div>
     </div>
     <div class="section contact" id='waitlist'>
       <div>
-        <h2>{{ _('Subscribe Now!') }}</h2>
-        <p>{{ _("We'll notify you when registration for new courses opens.") }}</p>
+        <h2>{{ _('Join Us!') }}</h2>
+        <p>{{ _("Subscribe to get notified about updates to Al-Asl, or join our WhatsApp Channel!") }}</p>
+        <button onclick="location.href='https://whatsapp.com/channel/0029Vb32vMx6xCSGjYpIvq1B'">{{ _('Join our WhatsApp Channel') }}</button>
       </div>      
       <form action="/waitlist" method="POST">
         {% with messages = get_flashed_messages(with_categories=true) %}

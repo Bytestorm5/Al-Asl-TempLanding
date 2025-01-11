@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, flash, g
+from flask import Flask, render_template, request, redirect, flash, g, url_for, send_from_directory
 from flask_babel import Babel, gettext as _, lazy_gettext as _l
 import os
 import resend
@@ -47,6 +47,11 @@ def validate_email(email):
     # Simple regex for email validation
     email_regex = r'^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$'
     return re.match(email_regex, email) is not None
+
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static'),
+                               'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
 @app.route('/')
 def index():

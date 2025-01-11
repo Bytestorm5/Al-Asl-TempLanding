@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-10 19:51-0500\n"
-"PO-Revision-Date: 2025-01-10 19:51-0500\n"
+"POT-Creation-Date: 2025-01-11 01:48-0500\n"
+"PO-Revision-Date: 2025-01-11 01:48-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ur\n"
 "Language-Team: ur <LL@li.org>\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: app.py:63
+#: app.py:68
 msgid "Invalid email address. Please try again."
 msgstr "ای میل ایڈریس درست نہیں ہے۔ براہ کرم دوبارہ کوشش کریں۔"
 
-#: app.py:69
+#: app.py:74
 msgid "Successfully added to the waitlist!"
 msgstr "ویٹ لسٹ میں کامیابی سے شامل کر لیا گیا!"
 
-#: app.py:71
+#: app.py:76
 msgid "An error occurred: {error}"
 msgstr "ایک خرابی پیش آئی: {error}"
 
@@ -48,7 +48,7 @@ msgstr "اردو میں تبدیل کریں"
 
 #: templates/index.html:25
 msgid "Switch to English"
-msgstr "انگریزی میں تبدیل کریں"
+msgstr "Switch to English"
 
 #: templates/index.html:31
 msgid ""
@@ -56,19 +56,23 @@ msgid ""
 " firm and its branches reach the sky"
 msgstr "کیا تم دیکھتے نہیں ہو کہ اللہ نے کلمہ طیّبہ کو کس چیز سے مثال دی ہے؟ اِس کی مثال ایسی ہے جیسے ایک اچھی ذات کا درخت جس کی جڑ زمین میں گہری جمی ہوئی ہے اور شاخیں آسمان تک پہنچی ہوئی ہیں"
 
-#: templates/index.html:32 templates/index.html:96
+#: templates/index.html:33 templates/index.html:106
 msgid "Subscribe Now"
 msgstr "ابھی سبسکرائب کریں"
 
-#: templates/index.html:35
+#: templates/index.html:34 templates/index.html:82
+msgid "Join our WhatsApp Channel"
+msgstr "ہمارے واٹس ایپ چینل میں شامل ہوں"
+
+#: templates/index.html:38
 msgid "Our Courses"
 msgstr "ہمارے کورسز"
 
-#: templates/index.html:38
+#: templates/index.html:41
 msgid "Book Club"
 msgstr "بزمِ مطالعہ"
 
-#: templates/index.html:39
+#: templates/index.html:42
 msgid ""
 "Sisters Book Club, Bazm-e-Mutalia’, is a unique platform for Urdu-"
 "speaking sisters where they can nurture their love for knowledge and "
@@ -77,15 +81,15 @@ msgid ""
 "delve into the depths of religion and literature.\n"
 msgstr "بزمِ مطالعہ اردو زبان بولنے والی بہنوں کے لیے ایک منفرد پلیٹ فارم ہے جہاں وہ کتابوں کے ذریعے علم و ادب سے محبت کو فروغ دے سکتی ہیں۔ یہ حلقہ مطالعہ نہ صرف علمی گفتگو بلکہ دین اور ادب کی گہرائیوں کو سمجھنے کے لیے ایک خوبصورت موقع فراہم کرتا ہے۔"
 
-#: templates/index.html:41 templates/index.html:47 templates/index.html:53
+#: templates/index.html:44 templates/index.html:50 templates/index.html:55
 msgid "Coming Soon"
 msgstr "جلد آ رہا ہے"
 
-#: templates/index.html:44 templates/index.html:50
+#: templates/index.html:47
 msgid "Akhlaq Hamlatul Quran"
 msgstr "اخلاق حملۃ القرآن"
 
-#: templates/index.html:45 templates/index.html:51
+#: templates/index.html:48
 msgid ""
 "This book reading session delves into the profound teachings of the book "
 "Akhlaq Hamlatul Quran, emphasizing the moral and spiritual qualities "
@@ -95,72 +99,119 @@ msgid ""
 "those seeking to enhance their relationship with the Quran.\n"
 msgstr "یہ کتاب خوانی کا سیشن کتاب "اخلاق حملۃ القرآن" کی گہری تعلیمات پر روشنی ڈالتا ہے، جو قرآن سے تعلق رکھنے والوں کے لیے ضروری اخلاقی اور روحانی خصوصیات کو اجاگر کرتا ہے۔ طلبہ اس کورس میں ان آداب، ذمہ داریوں اور کردار کی خصوصیات کو سمجھیں گے جو قرآن کے پیغام کو اپنانے، سمجھنے اور اس کے مطابق زندگی گزارنے کے لیے لازم ہیں۔ یہ کورس ان لوگوں کے لیے بہترین ہے جو قرآن کے ساتھ اپنے تعلق کو مضبوط بنانا چاہتے ہیں۔"
 
-#: templates/index.html:59
+#: templates/index.html:53
+msgid "Quran and Tajweed "
+msgstr "تجوید اور قرآن"
+
+#: templates/index.html:54
+msgid ""
+"Al-Asl plans to offer a range of Tajweed and Quran courses in Urdu, "
+"adapted from Azharul Jannah in English, by the teachers trained under the"
+" guidance of Ustadha Zahara Ahamath. By learning in their native "
+"language, sisters can connect more profoundly with the Quranic message "
+"while mastering the techniques of proper recitation."
+msgstr "الاصل ایک وسیع رینج کے تجوید اور قرآن کورسز اردو زبان میں پیش کرنے کا ارادہ رکھتا ہے، جو انگلش میں "ازہار الجنة" کے کورسز سے ماخوذ ہوں گے۔ یہ کورسز استاذہ زہرہ احمد کی رہنمائی میں تربیت یافتہ اساتذہ کے ذریعے فراہم کیے جائیں گے۔ اپنی مادری زبان میں تعلیم حاصل کرکے، بہنیں قرآن کے پیغام سے زیادہ گہرائی کے ساتھ جڑ سکیں گی اور درست تلاوت کے طریقے کو مہارت کے ساتھ سیکھ سکیں گی۔"
+
+#: templates/index.html:61
 msgid "About Us"
 msgstr "ألأصل کے بارے میں"
 
-#: templates/index.html:60
-msgid "At"
-msgstr ""
-
-#: templates/index.html:60
+#: templates/index.html:62
 msgid ""
-"we believe that to truly understand Islam, one must begin with its "
-"foundations. While Arabic is the primary language of the Quran, Urdu "
+"Welcome to ألأصل, an institute dedicated to rediscovering the roots of "
+"our faith and culture through the language of Urdu. Inspired by the "
+"profound message in Surah Ibrahim (14:24), where a \"good word\" is "
+"likened to a tree with firm roots and flourishing branches, ألأصل aims to"
+" nurture a deep and lasting connection to the Quran and Islamic "
+"teachings."
+msgstr "ألأصل میں خوش آمدید! سورہ ابراہیم میں اللہ تعالیٰ نے پاکیزہ کلمے کی مثال ایک ایسے درخت سے دی ہے جس کی جڑیں مضبوط ہیں اور جس کی شاخیں آسمان تک پھیلی ہوئی ہیں۔ اسی خوبصورت تشبیہ سے رہنمائی لیتے ہوئے، ألأصل کا مقصد اپنى بہنوں کو علم اور ایمان کی ان جڑوں سے جوڑنا ہے جو ہماری زبان، ثقافت اور قرآن سے وابستہ ہیں۔"
+
+#: templates/index.html:63
+msgid ""
+"At ألأصل, we believe that to truly understand Islam, one must begin with "
+"its foundations. While Arabic is the primary language of the Quran, Urdu "
 "holds a unique and rich position in the Islamic world. After Arabic, Urdu"
 " is the language in which the most books, commentaries, and resources on "
 "Islam and the Quran have been written. It serves as a bridge for "
 "countless individuals seeking to explore and immerse themselves in the "
 "teachings of Islam."
-msgstr "کا مطلب ہے "جڑیں"، اور ہمارا یہ ادارہ اس نام کو حقیقت میں بدلنے کے لیے وقف ہے۔ ہمارا یقین ہے کہ اسلام کو صحیح طور پر سمجھنے کے لیے ضروری ہے کہ اس کی بنیادوں کو مضبوط کیا جائے۔ عربی قرآن کی اصل زبان ہے، لیکن اردو نے اسلامی دنیا میں علم اور ادب کی ترویج میں ایک لازوال کردار ادا کیا ہے۔ عربی کے بعد سب سے زیادہ اسلامی کتب، تفاسیر، اور علوم اردو میں دستیاب ہیں، اور کئی خطوں میں لوگ اسلام کو سیکھنے سے پہلے اردو سیکھتے ہیں۔
-"
+msgstr "ألأصل کا مطلب ہے "جڑیں"، اور ہمارا یہ ادارہ اس نام کو حقیقت میں بدلنے کے لیے وقف ہے۔ ہمارا یقین ہے کہ اسلام کو صحیح طور پر سمجھنے کے لیے ضروری ہے کہ اس کی بنیادوں کو مضبوط کیا جائے۔ عربی قرآن کی اصل زبان ہے، لیکن اردو نے اسلامی دنیا میں علم اور ادب کی ترویج میں ایک لازوال کردار ادا کیا ہے۔ عربی کے بعد سب سے زیادہ اسلامی کتب، تفاسیر، اور علوم اردو میں دستیاب ہیں، اور کئی خطوں میں لوگ اسلام کو سیکھنے سے پہلے اردو سیکھتے ہیں۔"
 
-#: templates/index.html:61
+#: templates/index.html:64
 msgid ""
 "Our mission is to go back to the roots and provide a platform for "
 "individuals to study and appreciate the beauty of the Quran, Hadith, and "
 "Islamic literature through Urdu. We cater to people from all walks of "
 "life, particularly those who wish to strengthen their understanding of "
-"Islam by first mastering the language of Urdu. From beginners to advanced"
-" learners, we offer courses that are tailored to different levels of "
-"proficiency."
-msgstr "ہمارا مشن یہ ہے کہ اردو زبان کے ذریعے قرآن، حدیث، اور اسلامی علوم کی خوبصورتی اور گہرائی کو دنیا بھر کے لوگوں تک پہنچایا جائے۔ ہم ایسے کورسز پیش کرتے ہیں جو ابتدائی سطح کے طلباء سے لے کر ماہرین تک، ہر ایک کی ضروریات کو پورا کرتے ہیں۔ ہمارا مقصد صرف زبان سکھانا نہیں بلکہ قرآن اور اسلامی روایات کے ساتھ ایک گہرا تعلق پیدا کرنا ہے۔
-"
+"Islam through Urdu language. From beginners to advanced learners, we "
+"offer courses that are tailored to different levels of proficiency."
+msgstr "ہمارا مشن یہ ہے کہ اردو زبان کے ذریعے قرآن، حدیث، اور اسلامی علوم کی خوبصورتی اور گہرائی کو دنیا بھر کے لوگوں تک پہنچایا جائے۔ ہم ایسے کورسز پیش کرتے ہیں جو ابتدائی سطح کے طلباء سے لے کر ماہرین تک، ہر ایک کی ضروریات کو پورا کرتے ہیں۔ ہمارا مقصد اردو زبان سکھانا نہیں بلکہ اردو کے ذريعے قرآن اور اسلامی روایات کے ساتھ ایک گہرا تعلق پیدا کرنا ہے۔"
 
-#: templates/index.html:64
+#: templates/index.html:67
 msgid "Our Vision"
 msgstr "ہمارا وژن"
 
-#: templates/index.html:65
+#: templates/index.html:68
 msgid ""
 "Our vision is to create a world where the roots of faith and knowledge "
 "are accessible to everyone. By empowering individuals with the tools to "
 "study the Quran and Islamic texts in Urdu, we aspire to revive the love "
 "for learning and understanding Islam in its truest form."
-msgstr "ہمارا وژن ایک ایسی دنیا کی تخلیق ہے جہاں ہر شخص علم اور ایمان کی جڑوں تک رسائی حاصل کر سکے۔ ہم اردو کے ذریعے اسلامی متون اور قرآن کے مطالعے کو فروغ دے کر اسلام کی حقیقی تعلیمات کو سمجھنے اور سیکھنے کا جذبہ پیدا کرنا چاہتے ہیں۔
-"
-
-#: templates/index.html:71
-msgid "Subscribe Now!"
-msgstr "ویٹ لسٹ میں شامل ہوں!"
+msgstr "ہمارا وژن ایک ایسی دنیا کی تخلیق ہے جہاں ہر شخص علم اور ایمان کی جڑوں تک رسائی حاصل کر سکے۔ ہم اردو کے ذریعے اسلامی متون اور قرآن کے مطالعے کو فروغ دے کر اسلام کی حقیقی تعلیمات کو سمجھنے اور سیکھنے کا جذبہ پیدا کرنا چاہتے ہیں۔"
 
 #: templates/index.html:72
-msgid "We'll notify you when registration for new courses opens."
-msgstr "ہم آپ کو مطلع کریں گے جب نئے کورسز کی رجسٹریشن کھلے گی۔"
+msgid "About the Founder"
+msgstr "بانی کے بارے میں"
 
-#: templates/index.html:85
+#: templates/index.html:73
+msgid ""
+"Naila Firdaus, the founder of Al-Asl (ألأصل), is a passionate learner and"
+" educator committed to spreading Islamic knowledge to Urdu-speaking "
+"audiences. She holds a Bachelor’s degree in Computer Science and a "
+"Master’s degree in Project Management and has been an IT professional in "
+"New Jersey since 1999."
+msgstr "نائلہ فردوس، الاصل کی بانی، ایک شوقین طالبہ اور معلمہ ہیں جو اردو بولنے والوں تک اسلامی علم کو پہنچانے کے لیے پرعزم ہیں۔ وہ کمپیوٹر سائنس میں بیچلرز اور پروجیکٹ مینجمنٹ میں ماسٹرز کی ڈگری رکھتی ہیں اور 1999 سے نیو جرسی میں بطور آئی ٹی پروفیشنل کام کر رہی ہیں۔"
+
+#: templates/index.html:74
+msgid ""
+"Her journey into Islamic studies began after a heartfelt dua during Hajj,"
+" inspiring her to pursue advanced Quranic education. She has studied "
+"Ashara Sughra under multiple Shuyukh, holds Ijazat in various Mutoon, and"
+" is currently pursuing a PhD in Quranic Sciences."
+msgstr "ان کی دینی تعلیم کا سفر حج کے دوران کی گئی ایک دعا سے شروع ہوا، جس نے انہیں قرآن کے علم کو گہرائی سے سیکھنے کی ترغیب دی۔ نائلہ نے مختلف شیوخ کے ساتھ عشرہ صغریٰ کا مطالعہ کیا ہے، متعدد متون میں اجازات حاصل کی ہیں، اور اس وقت قرآنی علوم میں پی ایچ ڈی کر رہی ہیں۔"
+
+#: templates/index.html:75
+msgid ""
+"With a vision to make Islamic education accessible, Naila established Al-"
+"Asl, a platform dedicated to teaching Quranic recitation, Tajweed, and "
+"the etiquettes of Ahlul Quran. Her work reflects her dedication to "
+"creating a safe space for Urdu speakers to connect with the Quran and its"
+" teachings."
+msgstr "اسلامی تعلیمات کو عام کرنے کے عزم کے ساتھ، نائلہ نے الاصل (ألأصل) کا قیام کیا، جو قرآن کی تلاوت، تجوید، اور اہل القرآن کے آداب سیکھنے کے لیے ایک محفوظ اور قابل رسائی پلیٹ فارم فراہم کرتا ہے۔ ان کی محنت اردو بولنے والوں کو قرآن اور اس کی تعلیمات سے جڑنے کا ایک خوبصورت ذریعہ فراہم کرتی ہے۔"
+
+#: templates/index.html:80
+msgid "Join Us!"
+msgstr "ہم سے جڑیں!"
+
+#: templates/index.html:81
+msgid ""
+"Subscribe to get notified about updates to Al-Asl, or join our WhatsApp "
+"Channel!"
+msgstr "الاصل کی تازہ ترین معلومات کے لیے سبسکرائب کریں یا ہمارے واٹس ایپ چینل میں شامل ہوں!"
+
+#: templates/index.html:95
 msgid "First Name"
 msgstr "پہلا نام"
 
-#: templates/index.html:89
+#: templates/index.html:99
 msgid "Last Name"
 msgstr "آخری نام"
 
-#: templates/index.html:93
+#: templates/index.html:103
 msgid "Email"
 msgstr "ای میل"
 
-#: templates/index.html:101
+#: templates/index.html:111
 msgid "All rights reserved."
 msgstr "All rights reserved."
 

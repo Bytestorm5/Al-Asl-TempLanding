@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-10 19:51-0500\n"
+"POT-Creation-Date: 2025-01-11 01:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: app.py:63
+#: app.py:68
 msgid "Invalid email address. Please try again."
 msgstr ""
 
-#: app.py:69
+#: app.py:74
 msgid "Successfully added to the waitlist!"
 msgstr ""
 
-#: app.py:71
+#: app.py:76
 msgid "An error occurred: {error}"
 msgstr ""
 
@@ -55,19 +55,23 @@ msgid ""
 " firm and its branches reach the sky"
 msgstr ""
 
-#: templates/index.html:32 templates/index.html:96
+#: templates/index.html:33 templates/index.html:106
 msgid "Subscribe Now"
 msgstr ""
 
-#: templates/index.html:35
-msgid "Our Courses"
+#: templates/index.html:34 templates/index.html:82
+msgid "Join our WhatsApp Channel"
 msgstr ""
 
 #: templates/index.html:38
+msgid "Our Courses"
+msgstr ""
+
+#: templates/index.html:41
 msgid "Book Club"
 msgstr ""
 
-#: templates/index.html:39
+#: templates/index.html:42
 msgid ""
 "Sisters Book Club, Bazm-e-Mutalia’, is a unique platform for Urdu-"
 "speaking sisters where they can nurture their love for knowledge and "
@@ -76,15 +80,15 @@ msgid ""
 "delve into the depths of religion and literature.\n"
 msgstr ""
 
-#: templates/index.html:41 templates/index.html:47 templates/index.html:53
+#: templates/index.html:44 templates/index.html:50 templates/index.html:55
 msgid "Coming Soon"
 msgstr ""
 
-#: templates/index.html:44 templates/index.html:50
+#: templates/index.html:47
 msgid "Akhlaq Hamlatul Quran"
 msgstr ""
 
-#: templates/index.html:45 templates/index.html:51
+#: templates/index.html:48
 msgid ""
 "This book reading session delves into the profound teachings of the book "
 "Akhlaq Hamlatul Quran, emphasizing the moral and spiritual qualities "
@@ -94,18 +98,37 @@ msgid ""
 "those seeking to enhance their relationship with the Quran.\n"
 msgstr ""
 
-#: templates/index.html:59
+#: templates/index.html:53
+msgid "Quran and Tajweed "
+msgstr ""
+
+#: templates/index.html:54
+msgid ""
+"Al-Asl plans to offer a range of Tajweed and Quran courses in Urdu, "
+"adapted from Azharul Jannah in English, by the teachers trained under the"
+" guidance of Ustadha Zahara Ahamath. By learning in their native "
+"language, sisters can connect more profoundly with the Quranic message "
+"while mastering the techniques of proper recitation."
+msgstr ""
+
+#: templates/index.html:61
 msgid "About Us"
 msgstr ""
 
-#: templates/index.html:60
-msgid "At"
+#: templates/index.html:62
+msgid ""
+"Welcome to ألأصل, an institute dedicated to rediscovering the roots of "
+"our faith and culture through the language of Urdu. Inspired by the "
+"profound message in Surah Ibrahim (14:24), where a \"good word\" is "
+"likened to a tree with firm roots and flourishing branches, ألأصل aims to"
+" nurture a deep and lasting connection to the Quran and Islamic "
+"teachings."
 msgstr ""
 
-#: templates/index.html:60
+#: templates/index.html:63
 msgid ""
-"we believe that to truly understand Islam, one must begin with its "
-"foundations. While Arabic is the primary language of the Quran, Urdu "
+"At ألأصل, we believe that to truly understand Islam, one must begin with "
+"its foundations. While Arabic is the primary language of the Quran, Urdu "
 "holds a unique and rich position in the Islamic world. After Arabic, Urdu"
 " is the language in which the most books, commentaries, and resources on "
 "Islam and the Quran have been written. It serves as a bridge for "
@@ -113,22 +136,21 @@ msgid ""
 "teachings of Islam."
 msgstr ""
 
-#: templates/index.html:61
+#: templates/index.html:64
 msgid ""
 "Our mission is to go back to the roots and provide a platform for "
 "individuals to study and appreciate the beauty of the Quran, Hadith, and "
 "Islamic literature through Urdu. We cater to people from all walks of "
 "life, particularly those who wish to strengthen their understanding of "
-"Islam by first mastering the language of Urdu. From beginners to advanced"
-" learners, we offer courses that are tailored to different levels of "
-"proficiency."
+"Islam through Urdu language. From beginners to advanced learners, we "
+"offer courses that are tailored to different levels of proficiency."
 msgstr ""
 
-#: templates/index.html:64
+#: templates/index.html:67
 msgid "Our Vision"
 msgstr ""
 
-#: templates/index.html:65
+#: templates/index.html:68
 msgid ""
 "Our vision is to create a world where the roots of faith and knowledge "
 "are accessible to everyone. By empowering individuals with the tools to "
@@ -136,27 +158,59 @@ msgid ""
 "for learning and understanding Islam in its truest form."
 msgstr ""
 
-#: templates/index.html:71
-msgid "Subscribe Now!"
-msgstr ""
-
 #: templates/index.html:72
-msgid "We'll notify you when registration for new courses opens."
+msgid "About the Founder"
 msgstr ""
 
-#: templates/index.html:85
+#: templates/index.html:73
+msgid ""
+"Naila Firdaus, the founder of Al-Asl (ألأصل), is a passionate learner and"
+" educator committed to spreading Islamic knowledge to Urdu-speaking "
+"audiences. She holds a Bachelor’s degree in Computer Science and a "
+"Master’s degree in Project Management and has been an IT professional in "
+"New Jersey since 1999."
+msgstr ""
+
+#: templates/index.html:74
+msgid ""
+"Her journey into Islamic studies began after a heartfelt dua during Hajj,"
+" inspiring her to pursue advanced Quranic education. She has studied "
+"Ashara Sughra under multiple Shuyukh, holds Ijazat in various Mutoon, and"
+" is currently pursuing a PhD in Quranic Sciences."
+msgstr ""
+
+#: templates/index.html:75
+msgid ""
+"With a vision to make Islamic education accessible, Naila established Al-"
+"Asl, a platform dedicated to teaching Quranic recitation, Tajweed, and "
+"the etiquettes of Ahlul Quran. Her work reflects her dedication to "
+"creating a safe space for Urdu speakers to connect with the Quran and its"
+" teachings."
+msgstr ""
+
+#: templates/index.html:80
+msgid "Join Us!"
+msgstr ""
+
+#: templates/index.html:81
+msgid ""
+"Subscribe to get notified about updates to Al-Asl, or join our WhatsApp "
+"Channel!"
+msgstr ""
+
+#: templates/index.html:95
 msgid "First Name"
 msgstr ""
 
-#: templates/index.html:89
+#: templates/index.html:99
 msgid "Last Name"
 msgstr ""
 
-#: templates/index.html:93
+#: templates/index.html:103
 msgid "Email"
 msgstr ""
 
-#: templates/index.html:101
+#: templates/index.html:111
 msgid "All rights reserved."
 msgstr ""
 
