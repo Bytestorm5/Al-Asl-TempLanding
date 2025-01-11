@@ -7,14 +7,21 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
-  <style>
-    
-  </style>
 </head>
 <body>
   <div class="container">
-    <div class="nav">
+    <div class="nav" style="display: flex; justify-content: space-between; align-items: center;">
+      <!-- Logo -->
       <img src="{{ url_for('static', filename='logo2.png') }}" alt="{{ _('Logo') }}">
+
+      <!-- Language Switch Button -->
+      <div>
+        {% if locale == 'en' %}
+          <a href="?lang=ur" class="lang-switch-button">{{ _('Switch to Urdu') }}</a>
+        {% elif locale == 'ur' %}
+          <a href="?lang=en" class="lang-switch-button">{{ _('Switch to English') }}</a>
+        {% endif %}
+      </div>
     </div>
     <div class="section banner">
       <p class='lang-ar'>أَلَمْ تَرَ كَيْفَ ضَرَبَ ٱللَّهُ مَثَلًۭا كَلِمَةًۭ طَيِّبَةًۭ كَشَجَرَةٍۢ طَيِّبَةٍ أَصْلُهَا ثَابِتٌۭ وَفَرْعُهَا فِى ٱلسَّمَآءِ ٢٤</p><br>
