@@ -240,3 +240,7 @@ button:hover {
 .form-item label {
   width: fit-content;
 }
+.title-text {
+  color: var(--primary-color-d);
+  text-shadow: black 0.5px 0.5px;
+}

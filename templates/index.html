@@ -14,7 +14,7 @@
       <!-- Logo -->
        <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; gap: 15px; align-items: center;">
         <img src="{{ url_for('static', filename='logo2.png') }}" alt="{{ _('Logo') }}">
-        <h2>{{ _('The Urdu Chapter of Azharul Jannah')}}</h2>
+        <h2 class="title-text">{{ _('The Urdu Chapter of Azharul Jannah')}}</h2>
        </div>
 
       <!-- Language Switch Button -->
@@ -29,7 +29,7 @@
     <div class="section banner">
       <p class='lang-ar'>أَلَمْ تَرَ كَيْفَ ضَرَبَ ٱللَّهُ مَثَلًا كَلِمَةً طَيِّبَةً كَشَجَرَةٍ طَيِّبَةٍ أَصْلُهَا ثَابِتٌ وَفَرْعُهَا فِى ٱلسَّمَآءِ ٢٤</p><br>
       <i>"{{ _('Do you not see how Allah compares a good word to a good tree? Its root is firm and its branches reach the sky') }},"</i><br>
-      <button onclick="location.href='#waitlist'" style="margin-top: 35px">{{ _('Waitlist Now') }}</button>
+      <button onclick="location.href='#waitlist'" style="margin-top: 35px">{{ _('Subscribe Now') }}</button>
     </div>
     <div class="section course-list">
       <h1>{{ _('Our Courses') }}</h1>
@@ -68,7 +68,7 @@
     </div>
     <div class="section contact" id='waitlist'>
       <div>
-        <h2>{{ _('Join the Waitlist!') }}</h2>
+        <h2>{{ _('Subscribe Now!') }}</h2>
         <p>{{ _("We'll notify you when registration for new courses opens.") }}</p>
       </div>      
       <form action="/waitlist" method="POST">
@@ -93,7 +93,7 @@
           <label>{{ _('Email') }}</label>
           <input type='text' name='email'>
         </div>
-        <button type="submit">{{ _('Join Waitlist') }}</button>
+        <button type="submit">{{ _('Subscribe Now') }}</button>
       </form>
     </div>
   </div>

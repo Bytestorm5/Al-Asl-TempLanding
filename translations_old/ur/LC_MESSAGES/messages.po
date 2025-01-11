@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-10 19:51-0500\n"
-"PO-Revision-Date: 2025-01-10 19:51-0500\n"
+"POT-Creation-Date: 2025-01-10 19:34-0500\n"
+"PO-Revision-Date: 2025-01-10 19:34-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ur\n"
 "Language-Team: ur <LL@li.org>\n"
@@ -56,7 +56,7 @@ msgid ""
 " firm and its branches reach the sky"
 msgstr "کیا تم دیکھتے نہیں ہو کہ اللہ نے کلمہ طیّبہ کو کس چیز سے مثال دی ہے؟ اِس کی مثال ایسی ہے جیسے ایک اچھی ذات کا درخت جس کی جڑ زمین میں گہری جمی ہوئی ہے اور شاخیں آسمان تک پہنچی ہوئی ہیں"
 
-#: templates/index.html:32 templates/index.html:96
+#: templates/index.html:32
 msgid "Subscribe Now"
 msgstr "ابھی سبسکرائب کریں"
 
@@ -159,6 +159,10 @@ msgstr "خری نام"
 #: templates/index.html:93
 msgid "Email"
 msgstr "ای میل"
+
+#: templates/index.html:96
+msgid "Subscribe Now"
+msgstr "ابھی سبسکرائب کریں"
 
 #: templates/index.html:101
 msgid "All rights reserved."
