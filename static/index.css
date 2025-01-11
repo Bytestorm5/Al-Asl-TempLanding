@@ -207,6 +207,7 @@ button:hover {
   justify-content: space-around;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 40px;
   padding: 40px;
 }
