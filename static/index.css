@@ -217,10 +217,22 @@ button:hover {
   background-color: var(--background-color-c1);
   border-radius: 15px;
   padding: 20px;
-  min-width: 400px;
   transition: background-color 0.3s ease;
   flex-grow: 1;
 }
 .about-card:hover {
   background-color: var(--background-color);
+}
+
+.lang-switch-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.lang-switch-button:hover {
+  background-color: #0056b3;
 }
