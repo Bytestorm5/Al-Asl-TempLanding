@@ -154,7 +154,7 @@ msgstr "پہلا نام"
 
 #: templates/index.html:89
 msgid "Last Name"
-msgstr "خری نام"
+msgstr "آخری نام"
 
 #: templates/index.html:93
 msgid "Email"
