@@ -57,16 +57,23 @@ def favicon():
 def index():
     return render_template('index.html')
 
+from flask import request, redirect, flash, url_for
+from urllib.parse import urlencode
+
 @app.route('/waitlist', methods=['POST'])
 def waitlist():
     first_name = request.form.get('first_name')
     last_name = request.form.get('last_name')
     email = request.form.get('email')
 
+    # Preserve query parameters
+    query_params = urlencode(request.args)
+    base_url = '/'
+
     # Validate email
     if not validate_email(email):
         flash(_("Invalid email address. Please try again."), "danger")
-        return redirect('/')
+        return redirect(f"{base_url}?{query_params}" if query_params else base_url)
 
     try:
         # Add to waitlist
@@ -75,7 +82,10 @@ def waitlist():
     except Exception as e:
         flash(_("An error occurred: {error}").format(error=str(e)), "danger")
 
-    return redirect('/')
+    print(f"{base_url}?{query_params}" if query_params else base_url)
+    print(request.args)
+    return redirect(f"{base_url}?{query_params}" if query_params else base_url)
+
 
 if __name__ == '__main__':
     if platform.system() == 'Windows':

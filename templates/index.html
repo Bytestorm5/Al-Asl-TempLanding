@@ -81,7 +81,7 @@
         <p>{{ _("Subscribe to get notified about updates to Al-Asl, or join our WhatsApp Channel!") }}</p>
         <button onclick="location.href='https://whatsapp.com/channel/0029Vb32vMx6xCSGjYpIvq1B'">{{ _('Join our WhatsApp Channel') }}</button>
       </div>      
-      <form action="/waitlist" method="POST">
+      <form action="/waitlist?lang={{ locale }}" method="POST">
         {% with messages = get_flashed_messages(with_categories=true) %}
         {% if messages %}
         {% for category, message in messages %}
